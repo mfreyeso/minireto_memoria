@@ -6,7 +6,7 @@ import UIKit
 
 for i in 0...100{
     
-    if (i % 5 == 0){
+    if (i % 5 == 0 && i != 0){
         print("# \(i) Bingo!!!")
     }
     
